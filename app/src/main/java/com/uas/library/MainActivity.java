@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
-        setContentView(binding.getRoot());
+        setContentView(binding.getRoot();
 
         if (!Utility.checkValue(this, "xUsername")) {
             Intent intent = new Intent(this, LoginActivity.class);
