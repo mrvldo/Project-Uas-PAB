@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         if (!Utility.checkValue(this, "xUsername")) {
             Intent intent = new Intent(this, LoginActivity.class);
             startActivity(intent);
-            finish();
+            finish());
         }
 
 
